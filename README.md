@@ -11,7 +11,15 @@ python create_bitmap_animation.py --text "@cmprmsd" --font /usr/share/fonts/Adwa
 ```
 2. Copy the sheet.bmp to storage_skel
 3. Look into the argparse arguments for further customization.
-
+4. Edit CMakeLists.txt and add:
+```js
+build_app(tag_bounce
+    SOURCES
+     main.c
+    LIBRARIES
+     sdl3
+)
+```
 
 # Usage
 
