@@ -1,0 +1,10 @@
+{
+    "unique_identifier": "rainbow_tag",
+    "name": "rainbow_tag",
+    "author": "@cmprmsd",
+    "version": "1",
+    "interpreter": "",
+    "metadata_file": "",
+    "binary_path": "rainbow_tag.elf",
+    "source": 1
+}
