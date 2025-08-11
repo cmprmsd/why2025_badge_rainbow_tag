@@ -13,7 +13,7 @@ python create_bitmap_animation.py --text "@cmprmsd" --font /usr/share/fonts/Adwa
 3. Look into the argparse arguments for further customization.
 4. Edit CMakeLists.txt and add:
 ```js
-build_app(tag_bounce
+build_app(rainbow_tag
     SOURCES
      main.c
     LIBRARIES
