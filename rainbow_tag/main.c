@@ -411,7 +411,7 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[]) {
     if (!a) return SDL_APP_FAILURE;
     *appstate = a;
 
-    a->window = SDL_CreateWindow("Tag Bounce (fast)", 700, 700, 0);
+    a->window = SDL_CreateWindow("Tag Bounce (fast)", 720, 720, SDL_WINDOW_FULLSCREEN);
     if (!a->window) { SDL_Log("CreateWindow failed: %s", SDL_GetError()); return SDL_APP_FAILURE; }
 
     // Cache window surface once
